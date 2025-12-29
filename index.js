@@ -5,10 +5,10 @@ const textload = () => {
     text.textContent = "Meng Ronal";
   }, 0);
   setTimeout(() => {
-    text.textContent = "Frontend development";
+    text.textContent = "Web Developer";
   }, 4000);
   setTimeout(() => {
-    text.textContent = "Freelaner";
+    text.textContent = "Freelaner Grapic Desgin";
   }, 8000);
 };
 textload();

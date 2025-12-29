@@ -119,13 +119,13 @@ html {
   overflow: hidden;
 } */
 .page_two > .container {
-  margin-top: 30px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(2, 50% 50%);
 }
 
 .page_two > .container > .content_left > img {
-  width: 450px;
+  width: 500px;
 }
 .page_two > .container > .content_right {
   line-height: 30px;
@@ -263,19 +263,27 @@ html {
   animation: css 3s;
 }
 .page_three > .container > .content_bottom > .Skill > li > .bar > .php {
-  width: 45%;
+  width: 70%;
   animation: php 3s;
 }
 .page_three > .container > .content_bottom > .Skill > li > .bar > .javarscript {
   width: 40%;
   animation: javarscript 3s;
 }
-.page_three > .container > .content_bottom > .Skill > li > .bar > .bootstrap {
-  width: 50%;
+.page_three > .container > .content_bottom > .Skill > li > .bar > .Django {
+  width: 80%;
   animation: bootstrap 3s;
 }
 .page_three > .container > .content_bottom > .Skill > li > .bar > .Python {
   width: 55%;
+  animation: Python 3s;
+}
+.page_three > .container > .content_bottom > .Skill > li > .bar > .ASP {
+  width: 60%;
+  animation: Python 3s;
+}
+.page_three > .container > .content_bottom > .Skill > li > .bar > .Laravel {
+  width: 80%;
   animation: Python 3s;
 }
 @keyframes html {
@@ -324,6 +332,30 @@ html {
   }
   100% {
     width: 55%;
+  }
+}
+@keyframes ASP {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes Laravel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes Django {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
   }
 }
 
